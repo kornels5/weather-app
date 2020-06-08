@@ -1,0 +1,50 @@
+.list-legend {
+  box-shadow: 5px 0 5px rgba(0,0,0,0.1);
+  color: #888;
+  width: 66px;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  font-size: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px #eee;
+}
+
+.day {
+  height: 16px;
+}
+
+.hour {
+  height: 30px;
+}
+
+.weather {
+  height: 34px;
+}
+
+.temperature {
+  height: 110px;
+}
+
+.rain {
+  height: 60px;
+}
+
+.wind {
+  height: 60px;
+  text-align: center;
+}
+
+.wind-speed {
+  height: 50px;
+  text-align: center;
+}
+
+.pressure {
+  height: 92px;
+}

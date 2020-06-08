@@ -1,0 +1,138 @@
+.swiper-button-next {
+  border-radius: 60px 0 0 60px;
+  background: rgba(0,0,0,0.1);
+  color: #fff;
+  right: 0;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 14px;
+}
+
+.swiper-button-next::after {
+  padding-left: 7px;
+}
+
+.swiper-button-prev::after {
+  padding-right: 7px;
+}
+
+.swiper-button-prev {
+  border-radius: 0 60px 60px 0;
+  background: rgba(0,0,0,0.1);
+  color: #fff;
+  left: 0;
+}
+
+.swiper-button-disabled {
+  display: none;
+}
+
+.swiper-container {
+  width: 531px;
+  height: 460px;
+  margin: 0;
+}
+
+.swiper-item {
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.swiper-item-day {
+  height: 17px;
+  font-size: 12px;
+  color: #888;
+  text-align: left;
+  padding-left: 2px;
+  text-transform: uppercase;
+}
+
+.swiper-item-day-text {
+  color: #888;
+  font-size: 8px;
+  text-transform: uppercase;
+}
+
+.swiper-item-hour {
+  font-size: 12px;
+  height: 31px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding-left: 2px;
+}
+
+.swiper-item-weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.swiper-item-temperature {
+  height: 110px;
+  position: relative;
+}
+
+.swiper-item-rain {
+  height: 60px;
+  width: 59px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.swiper-item-rain-bar {
+  width: 59px;
+  max-height: 40px;
+}
+
+.swiper-item-rain-label {
+  text-align: center;
+  font-size: 9px;
+  width: 100%;
+}
+
+.swiper-item-rain-wrapper {
+  height: 60px;
+  width: 59px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.swiper-item-wind {
+  height: 62px;
+  width: 59px;
+  background: #ddd;
+  border-right: #fff;
+  font-size: 9px;
+}
+
+.arrow-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 61px;
+}
+
+.arrow-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.swiper-item-wind-speed {
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 51px;
+  width: 61px;
+  font-size: 11px;
+}

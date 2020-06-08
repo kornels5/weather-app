@@ -1,0 +1,9 @@
+.app {
+  margin-top: 20px;
+}
+
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 620px;
+}
